@@ -1,0 +1,79 @@
+* {
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url('Pictures/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  /* height: 100vh;  */
+}
+header{
+    height: 25%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    height: 100%;
+    width: 20%;
+    line-height: 1;
+    /* border: 1px solid black; */
+}
+#rightH{
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid black; */
+    /* position: relative; */
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    /* background-color: black; */
+    
+}
+.navBtn{
+    height: 35px;
+    width: 100px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.132);
+    border-radius: 50px;
+}
+.lower{
+    height: 75vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+#leftL{
+    height: 38%;
+    width: 30%;
+    margin-top: auto;
+    font-size: 15px;
+    line-height: 1;
+    /* background-color: black; */
+}
+.textInL{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#meetingBtn{
+    height: 25%;
+    width: 40%;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#rightL{
+    height: 90%;
+    width: 30%;
+    line-height: 0.8;
+    margin-top: auto;
+    position: relative;
+    /* background-color: white; */
+}
